@@ -1,0 +1,33 @@
+body {
+    background-image: url(./technology.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+section {
+    background-color: antiquewhite;
+    height: 350px;
+    margin: 150px;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 ,p {
+    margin: 8px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+}
+input[type=text], input[type=password] {
+    padding: 6px 10px;
+    margin: 8px;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color: white;
+}

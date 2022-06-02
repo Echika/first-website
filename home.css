@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+.company {
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    background-color: antiquewhite;
+    margin-top: 0;
+    
+    
+}
+span {
+    font-weight: 900;
+    font-size: 50px;
+    color:aqua;
+
+}
+nav, ul, li {
+    margin-right: 5px;
+    display: flex;
+    list-style-type: none;
+    padding: 15px ;
+    
+}
+.navclass {
+    text-align: end;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+
+}
+
+.myname {
+    font-family: 'Sofia', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    margin: 50px;
+    text-align: center;
+}
+
+.pictureandname {
+    background-color: teal;
+    width: 450px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin: -70px;
+    margin-bottom: 50px;
+    
+}
+
+h3 {
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.aboutme {
+    width: 350px;
+    margin-left: 30px;
+    padding-bottom: 30px;  
+}
+
+.nav {
+    float: right;
+}
+.echika {
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: grey;
+}
+
+.description {
+    line-height: 1.6;
+    color: aliceblue;
+    font-weight: 500;
+
+}
+
+.description_1 {
+    padding: 5px;
+    line-height: 1.6;
+    color: #aaa;
+}
+
+.hobbies {
+    color: antiquewhite;
+    padding: 25px;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+button {
+    padding: 15px;
+    border-radius: 20px;
+    padding-bottom: 18px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+
+}
+.link {
+    margin-left: 1px;
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 100vh;
+        
+    }
+}

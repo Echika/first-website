@@ -1,0 +1,54 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blue
+}
+
+
+p {
+    text-align: center;
+    
+}
+form {
+    background-color: aliceblue;
+    height: 550px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+label {
+    color: blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+option {
+    color: rebeccapurple;
+    padding: 4px
+}
+input {
+    width: 100%;
+    margin: 8px;
+    padding: 10px;
+}
+
+
+input[type=text], input[type=radio], input[type=number],input[type=password] {
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: grey;
+    margin: 6px;
+}
+button {
+    padding: 10px;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+}
